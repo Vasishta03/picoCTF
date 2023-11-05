@@ -18,8 +18,8 @@ I opened the file using `cat keygenme-trial.py` and read the code.
 - I ran the following code in an online compiler
   ```python
   import hashlib
-  username_trial = "PRITCHARD"
-  bUsername_trial = b"PRITCHARD"
+  username_trial = "GOUGH"
+  bUsername_trial = b"GOUGH"
 
   key_part_static1_trial = "picoCTF{1n_7h3_|<3y_of_"
   key_part_dynamic1_trial = "xxxxxxxx"
@@ -37,8 +37,8 @@ I opened the file using `cat keygenme-trial.py` and read the code.
   print(hashlib.sha256(bUsername_trial).hexdigest()[8])
   ```
 
-The output is `54ef6292`
+The output is `f911a486`
 
 ## Output
-We can now complete the flag: `picoCTF{1n_7h3_|<3y_of_xxxxxxxx} --> picoCTF{1n_7h3_|<3y_of_54ef6292}`
-so the flag is `picoCTF{1n_7h3_|<3y_of_54ef6292}`
+We can now complete the flag: `picoCTF{1n_7h3_|<3y_of_xxxxxxxx} --> picoCTF{1n_7h3_|<3y_of_f911a486}`
+so the flag is `picoCTF{1n_7h3_|<3y_of_f911a486}`
